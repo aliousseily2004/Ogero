@@ -1,0 +1,13 @@
+.flex{
+    display: flex; /* Makes the main container a flex container */
+}
+
+.flex-grow {
+  flex-grow: 1;
+} 
+
+ body, html, #root {
+  height: 100%;
+  margin: 0;
+  margin-top: 10px;
+} 

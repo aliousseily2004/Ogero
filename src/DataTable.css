@@ -1,0 +1,94 @@
+/* DataTable.css */
+.data-table-container {
+  height: 400px;
+  width: 75%;
+  padding: 16px;
+  margin: 0 auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+  overflow: auto; /* Or this could hide overflow */
+}
+
+.data-grid {
+  border: none !important;
+  font-family: inherit;
+}
+
+/* Header styling */
+.data-grid .MuiDataGrid-columnHeaders {
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #e0e0e0;
+  font-weight: 600;
+}
+
+/* Cell styling */
+.data-grid .MuiDataGrid-cell {
+  border-bottom: 1px solid #f0f0f0;
+}
+
+/* Row hover effect */
+.data-grid .MuiDataGrid-row:hover {
+  background-color: #f5f5f5;
+}
+
+/* Selected row */
+.data-grid .MuiDataGrid-row.Mui-selected {
+  background-color: #e3f2fd;
+}
+
+/* Checkbox styling */
+.data-grid .MuiCheckbox-root {
+  color: rgba(0, 0, 0, 0.54);
+}
+
+.data-grid .MuiCheckbox-root.Mui-checked {
+  color: #1976d2;
+}
+
+/* Footer/pagination */
+.data-grid .MuiDataGrid-footerContainer {
+  border-top: 1px solid #e0e0e0;
+}
+.action-buttons {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.custom-btn {
+  padding: 4px 10px;
+  margin: 6px;
+  margin-top: 13px;
+  font-size: 0.85rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.2s ease-in-out;
+}
+
+.custom-btn.edit-btn {
+  background-color: #1976d2;
+  color: white;
+}
+
+.custom-btn.edit-btn:hover {
+  background-color: #1565c0;
+}
+
+.custom-btn.delete-btn {
+  background-color: #d32f2f;
+  color: white;
+}
+
+.custom-btn.delete-btn:hover {
+  background-color: #c62828;
+}
+
+.custom-btn.add-btn {
+  background-color: #2e7d32;
+  color: white;
+  padding: 6px 16px;
+}
+
+.custom-btn.add-btn:hover {
+  background-color: #1b5e20;
+}
